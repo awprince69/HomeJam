@@ -1,0 +1,35 @@
+.dashboardCircle{
+    height: 180px;
+    width: 180px;
+    border-radius: 200px;
+    border: 1px solid white;
+    margin-top: 90px;
+    margin-right: 130px;
+}
+.horizontalSlider{
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    margin-top: 85px;
+}
+.horizontalSlider::-webkit-scrollbar{
+    display: none;
+}
+.horizontalSlider{
+    -ms-overflow-style: none;
+}
+.sliderContainer{
+    display: block;
+    white-space: nowrap;
+
+}
+.item{
+    display: inline-block;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.activityText{
+    margin-top: 50px;
+}
