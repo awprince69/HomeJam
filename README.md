@@ -1,4 +1,4 @@
 # HomeJam
 
-[Live site](https://github.com/facebook/create-react-app).
+[Live site](https://homejam-trial.netlify.app/).
 
