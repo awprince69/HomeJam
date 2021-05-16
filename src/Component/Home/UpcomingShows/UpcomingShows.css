@@ -8,3 +8,9 @@
     font-Size: 32px;
     line-height:40px;
 }
+
+@media  (max-width: 688px){
+    .showsContainer{
+        padding-top: 100%;
+    }
+}

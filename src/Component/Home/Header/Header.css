@@ -1,12 +1,10 @@
 .headerContainer{
     background-image: url(../../../images/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    /* width: 100%; */
+    background-size:cover;
+    background-position:center center;
     height: 115vh;
 }
-
 .headerContainer::before{
     background-image: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 90%, #0A0B1A 100%);
     content: "";

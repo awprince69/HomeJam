@@ -38,9 +38,9 @@ const UpcomingShows = () => {
     return (
         <section className='showsContainer'>
             <div className='container text-white'>
-                <div className='d-flex justify-content-between' style={{ paddingTop: '130px' }}>
+                <div className='d-flex justify-content-between pt-5'>
                     <h1 className='titleText fontType1'> <span style={{ borderBottom: '3px solid blue', paddingBottom: '8px' }}>Up</span>coming Shows</h1>
-                    <p className='text-warning fontType2'>View All</p>
+                    <p className='text-warning fontType2 mt-1'>View All</p>
                 </div>
                 <div className='mt-5'>
                     <div className='d-flex showCardContainer'>

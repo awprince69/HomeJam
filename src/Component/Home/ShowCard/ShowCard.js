@@ -18,7 +18,9 @@ const ShowCard = ({ show }) => {
                             </div>
                             <div>
                                 <a href="#" className="card-link ticket">
-                                    <span style={{ marginLeft: '20px' }}> <img className='imageTicket' src={ticket} alt="" width='25' /></span>
+                                    <span className='imageTicket' style={{ marginLeft: '20px' }}>
+                                        <img className='imageTicket' src={ticket} alt="" width='25' />
+                                    </span>
                                 </a>
                             </div>
                         </div>
